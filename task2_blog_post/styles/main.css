@@ -1,0 +1,36 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-color:antiquewhite;
+}
+
+.card {
+  margin: 3;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.navbar-link:hover {
+  color: green; 
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    
+}
